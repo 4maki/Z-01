@@ -27,7 +27,6 @@ class App extends Component {
 
     render() {
         const { users } = this.state;
-        const {tekst} = this.state.tekst
         return (
             <div>
               <h1>{this.state.tekst}</h1>
